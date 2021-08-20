@@ -1,0 +1,26 @@
+.card{
+    margin-right: 10px;
+    width: 280px;
+    /* max-width: 285px; */
+    /* padding-left:10px; */
+    padding:5px 0 5px 5px;
+    background-color: rgb(91, 116, 116);
+    
+}
+.card:hover {
+    background-color:rgb(245, 105, 89);
+    transform: scale(1.06);
+    z-index: 99;
+}
+.card-text{
+    font-size: 11px;
+    color: #000
+}
+.card-title{
+    font-size: 1.1rem;
+}
+.profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
